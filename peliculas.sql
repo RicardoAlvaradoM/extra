@@ -1,9 +1,10 @@
 create database peliculas;
-use peliculas;
-create table renta(
-id_pelicula int not null auto_increment primary key,
-cliente varchar(50) collate latin1_spanish_ci not null,
-pelicula varchar(10) collate latin1_spanish_ci not null,
-tiempo varchar(50) collate latin1_spanish_ci not null,
-total int(10) collate latin1_spanish_ci not null
-);
+use peliculas; 
+CREATE TABLE rentas (
+  id_rentas INT NOT NULL AUTO_INCREMENT,
+  pelicula VARCHAR(45) NULL,
+  formato VARCHAR(45) NULL,
+  cliente VARCHAR(45) NULL,
+  tiempo VARCHAR(45) NOT NULL,
+  total VARCHAR(45) NOT NULL,
+  PRIMARY KEY (id_rentas, total, tiempo));

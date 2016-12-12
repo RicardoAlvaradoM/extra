@@ -7,7 +7,7 @@ render = web.template.render('views', base='base')
 
 urls=(
     '/(.*)','index')
-db = web.database(dbn='mysql',host='o61qijqeuqnj9chh.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',db='knuxswes9xf5cv52',user='nsxex8yohcvv74i1',pw='nsxex8yohcvv74i1')
+db = web.database(dbn='mysql',host='o61qijqeuqnj9chh.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',db='knuxswes9xf5cv52',user='nsxex8yohcvv74i1',pw='k26d5tnvu6pssrvk')
 clientes = clientes()
 clientes.readCli()
 peliculas = peliculas()
