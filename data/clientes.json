@@ -1,0 +1,23 @@
+{
+    "results": [{
+            "id": "1",
+            "nombre": "Mario Granillo"
+        },
+        {
+            "id": "2",
+            "nombre": "Alejandro Vargas"
+        },
+        {
+            "id": "3",
+            "nombre": "Mireya Granillo"
+        },
+        {
+            "id": "4",
+            "nombre": "Virginio Miranda"
+        },
+        {
+            "id": "5",
+            "nombre": "Agustin Solis"
+        }
+    ]
+}
